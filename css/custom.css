@@ -1,0 +1,46 @@
+.index{
+    background-color: #f4f4f4;
+}
+.navbar-item img {
+    max-height: 3.75rem !important;
+}
+.fotrack-brand {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        min-height: 3.25rem;
+}
+.fotrack-section {
+    padding: 1.5rem 1rem;
+}
+.fotrack-cover {
+    background-image: url('../imgs/cover.jpg');
+    height: 60vh;
+    background-size: cover;
+    overflow: hidden;
+}
+.fotrack-center {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+}
+.fotrack-text-bg {
+    background: radial-gradient(#1d421d4d,#2e482e);
+    border-radius: 5rem;
+    padding: 1rem;
+}
+.fotrack-color {
+    color: #293f28;
+}
+.fotrack-match-height {
+    height: 100%;
+}
+.footer {
+        background-color: black;
+        padding: 3rem 0.5rem 3rem !important;
+}
+.fotrack-img {
+    height: 11em;
+    margin: auto;
+    display: block;
+}
