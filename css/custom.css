@@ -1,3 +1,8 @@
+body {
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
 .index{
     background-color: #f4f4f4;
 }
@@ -11,6 +16,7 @@
         min-height: 3.25rem;
 }
 .fotrack-section {
+    flex: 1;
     padding: 1.5rem 1rem;
 }
 .fotrack-cover {
