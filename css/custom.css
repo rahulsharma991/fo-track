@@ -3,11 +3,29 @@ body {
     display:flex;
     flex-direction: column;
 }
+.is-green {
+    background-color: #293f28;
+}
 .index{
     background-color: #f4f4f4;
 }
 .navbar-item img {
     max-height: 3.75rem !important;
+}
+.navbar-item {
+    color: white;
+}
+.navbar-item:hover {
+    background-color: unset !important;
+    color: #736d15 !important;
+}
+@media (max-width:1023px) {
+    .navbar-item {
+        color: #293f28;
+    }
+    .navbar-burger {
+        color: white !important;
+    }
 }
 .fotrack-brand {
         align-items: center;
@@ -42,11 +60,16 @@ body {
     height: 100%;
 }
 .footer {
-        background-color: black;
+        background-color: #736d15;
         padding: 3rem 0.5rem 3rem !important;
 }
 .fotrack-img {
     height: 11em;
+    margin: auto;
+    display: block;
+}
+.fotrack-service-imgs {
+    height: 5em;
     margin: auto;
     display: block;
 }
